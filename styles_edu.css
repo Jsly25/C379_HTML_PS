@@ -1,0 +1,98 @@
+/* Style for the Financial Education page header */
+header {
+    background-color: #f8c146; /* A different shade to distinguish from the homepage */
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    margin-top: 0;
+}
+
+/* Style for the sections in the Financial Education page */
+.education-section {
+    text-align: center;
+    padding: 60px;
+    background-color: #f8c146;
+}
+
+.education-section h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.education-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Style for the resources section */
+.resources {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.resource {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resource h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.resource p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.resource .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.resource .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the footer */
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Style for the main sections with images and content */
+main .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+main .section img {
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+main .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main .section p {
+    font-size: 18px;
+}
